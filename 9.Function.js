@@ -1,6 +1,7 @@
 function Function() {
     //Example :  Function Hoisting
     console.log(greet("Alice")); // we are calling the function here before defining it. Hoisting. 
+    
     function greet(name) {
         return `Hello, ${name}!`;
     }
